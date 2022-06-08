@@ -9,8 +9,8 @@ from test.scripts.test_registration import NewUserRegistration
 if __name__ == "__main__":
     test_loader = TestLoader()
     test_suite = TestSuite((
-        test_loader.loadTestsFromTestCase(ParasoftHomePage),
-        # test_loader.loadTestsFromTestCase(NewUserRegistration),
+        # test_loader.loadTestsFromTestCase(ParasoftHomePage),
+        test_loader.loadTestsFromTestCase(NewUserRegistration),
     ))
 
     test_runner = TextTestRunner(verbosity=2)

@@ -1,7 +1,9 @@
 #Page locators live here
 
 class Locators(object):
-
+    
+    error = "//*[@class=\"error\"]"
+    
     #parabank homepage locators
     username_field = "//*[@id=\"loginPanel\"]/form/div[1]/input"
     password_field = "//*[@id=\"loginPanel\"]/form/div[2]/input"
@@ -23,16 +25,24 @@ class Locators(object):
     #Locators for error messages during user registration
     first_name_error = "//*[@id=\"customer.firstName.errors\"]"
     last_name_error = "//*[@id=\"customer.lastName.errors\"]"
-    address_error = "//input[@id=\"customer.address.street.errors\"]"
-    city_error = "//input[@id=\"customer.address.city.errors\"]"
-    state_error = "//input[@id=\"customer.address.state.errors\"]"
-    zip_error = "//input[@id=\"customer.address.zipCode.errors\"]"
-    phone_error = "//input[@id=\"customer.phoneNumber.errors\"]"
-    ssn_error = "//input[@id=\"customer.ssn.errors\"]"
-    username_error = "//input[@id=\"customer.username.errors\"]"
-    password_error = "//input[@id=\"customer.password.errors\"]"
-    confirm_password_error = "//input[@id=\"repeatedPassword.errors\"]"
-    register_btn_error = "//input[@class=\"button\" and @value=\"Register\"]"
+    address_error = "//*[@id=\"customer.address.street.errors\"]"
+    city_error = "//*[@id=\"customer.address.city.errors\"]"
+    state_error = "//*[@id=\"customer.address.state.errors\"]"
+    zip_error = "//*[@id=\"customer.address.zipCode.errors\"]"
+    phone_error = "//*[@id=\"customer.phoneNumber.errors\"]"
+    ssn_error = "//*[@id=\"customer.ssn.errors\"]"
+    username_error = "//*[@id=\"customer.username.errors\"]"
+    password_error = "//*[@id=\"customer.password.errors\"]"
+    confirm_password_error = "//*[@id=\"repeatedPassword.errors\"]"
+    register_btn_error = "//*[@class=\"button\" and @value=\"Register\"]"
+    
+    #Login Page locators
+    login_username = "//input[@name=\"username\"]"
+    login_password = "//input[@name=\"password\"]"
+    login_btn = "//input[@class=\"button\" and @value=\"Log In\"]"
+
+    
+    
 
 
 
