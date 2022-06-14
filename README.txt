@@ -1,4 +1,4 @@
-# Parabank Test Suite
+#Parabank Test Suite
 
 
 The goal of this project was to practice setting up a testing environment with Selenium and Python and practicing my test automation skills.
