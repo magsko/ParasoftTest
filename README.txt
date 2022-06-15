@@ -1,21 +1,5 @@
 #  Parabank Test Suite
 
-## 💡 Introduction
-
-SiYuan is a local-first personal knowledge management system, support fine-grained block-level reference and Markdown
-WYSIWYG.
-
-![feature0.png](https://b3logfile.com/file/2022/05/feature0-a82bdd3f.png)
-
-![feature1-1.png](https://b3logfile.com/file/2022/05/feature1-1-740d9a02.png)
-
-## ✨ Features
-
-### Free
-
-All local features are free.
-
-
 The goal of this project was to practice setting up a testing environment with Selenium and Python and practicing my test automation skills.
 
 ## About
